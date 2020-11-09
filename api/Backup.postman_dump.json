@@ -1,0 +1,55 @@
+{
+	"version": 1,
+	"collections": [
+		{
+			"id": "5cd0d186-3b49-4276-a0ca-a89170e35300",
+			"name": "api",
+			"description": null,
+			"auth": null,
+			"events": null,
+			"variables": [],
+			"order": [
+				"edc7a805-ad66-4e8c-9a6c-1f491815dff8"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {},
+			"folders": [],
+			"requests": [
+				{
+					"id": "edc7a805-ad66-4e8c-9a6c-1f491815dff8",
+					"name": "http://localhost:8081/marque",
+					"url": "http://localhost:8081/marque",
+					"description": "",
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "5cd0d186-3b49-4276-a0ca-a89170e35300",
+					"pathVariables": {}
+				}
+			]
+		}
+	],
+	"environments": [
+		{
+			"id": "70a8d863-7e00-4372-bc51-3a696d9ea57e",
+			"name": "Vente_de_voiture - globals",
+			"values": []
+		},
+		{
+			"id": "a8f4eae5-3f0e-4778-b9cd-7f9f38db368c",
+			"name": "My Workspace - globals",
+			"values": []
+		}
+	],
+	"headerPresets": [],
+	"globals": []
+}
