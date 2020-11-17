@@ -14,9 +14,9 @@ public class Voiture {
     private int id;
     private String nameCar;
     @ManyToOne
-    private Marque marque;
+    private Marque marque_id;
     @ManyToOne
-    private Client client;
+    private Client client_id;
 
     public Voiture(){
     }
